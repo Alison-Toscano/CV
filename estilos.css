@@ -1,0 +1,83 @@
+.estilogeneral{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(188, 117, 206), #fdb9b9, #8A2BE2);
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+
+
+
+    .estilogeneralheader{
+        background: linear-gradient(to bottom, #fdb9b9, #8A2BE2, #d8b9f5);
+        color: #000000;
+    padding: 10px;
+    text-align: left;
+    }
+
+
+
+    .estilonav{
+        background: linear-gradient(to bottom, #d8b9f5, rgb(188, 142, 231), #fdb9b9);
+        color: #000000;
+    padding: 10px;
+    text-align: left;
+    flex: 0 0 auto;
+
+    }
+
+
+
+    .main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    }
+
+
+
+.estilo-footer{
+    background: linear-gradient(to bottom, #d8b9f5, rgb(188, 142, 231), #fdb9b9);
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    flex: 0 0 auto;
+}
+
+
+
+    .table{
+    width: 100%;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom, #d8b9f5, rgb(188, 142, 231), #fdb9b9);
+    border-radius: 8px;
+    overflow: hidden;
+    }
+
+
+
+    .th{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    main {
+
+        padding: 10px;
+    }
+}
