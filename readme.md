@@ -1,3 +1,3 @@
-# CV
+# CV 
 
-## Pagina creada con HTML y bootstrap
+## Pagina creada con HTML,CSS y bootstrap

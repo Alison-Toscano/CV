@@ -1,3 +1,7 @@
+
+
+
+
 .estilogeneral{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #000000;
@@ -22,12 +26,36 @@
 
 
     .estilonav{
-        background: linear-gradient(to bottom, #d8b9f5, rgb(188, 142, 231), #fdb9b9);
-        color: #000000;
+    background: linear-gradient(to bottom, #d8b9f5, rgb(188, 142, 231), #fdb9b9);
+    color: #000000;
+    border-radius: 10px; 
     padding: 10px;
     text-align: left;
     flex: 0 0 auto;
 
+    }
+
+    .sobre-mi {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px; 
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+    opacity: 0.8; 
+    flex: 0 0 auto;   
+
+    }   
+
+
+
+
+
+    .estilo-barra {
+        text-decoration: none;
+        color: #8A2BE2; 
+    }
+    .estilo-barra:hover {
+        color: #3e1464; 
     }
 
 
@@ -44,8 +72,10 @@
 
 .estilo-footer{
     background: linear-gradient(to bottom, #d8b9f5, rgb(188, 142, 231), #fdb9b9);
+    font-style: oblique;
     color: #000000;
-    text-align: center;
+    text-align: start;
+    border-radius: 20px;
     padding: 10px;
     flex: 0 0 auto;
 }
@@ -56,22 +86,10 @@
     width: 100%;
     margin-bottom: 20px;
     background: linear-gradient(to bottom, #d8b9f5, rgb(188, 142, 231), #fdb9b9);
-    border-radius: 8px;
+    border-radius: 30px;
     overflow: hidden;
+    text-align: justify;
     }
-
-
-
-    .th{
-    padding: 15px;
-    text-align: left;
-    border-bottom: 1px solid #dee2e6;
-    background-color: #007bff;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    }
-
 
 
 
